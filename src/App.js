@@ -3,21 +3,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+      <div className="content-container">
+        <div className="main-title" >
+          <div className="title-container">
+            <h2 className='title-text'>
+              I’M A UI DESIGNER AND ML ENGINEER WORKING AT THE INTERSECTION OF AI & URBAN PLANNING.
+            </h2>
+          </div>
+          
+        </div>
+        <div className="main-projects" ></div>
+
+      </div>
     </div>
   );
 }

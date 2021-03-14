@@ -13,26 +13,27 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.content-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container {
+  padding: 45px;
+  background-color: #F8F2F1
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-container {
+  padding-right: calc(10vmin);
+}
+
+.title-text {
+  font-family: 'DM Sans', sans-serif, 'IBM Plex Serif', serif;  
+  color: 'black';
+  font-size: calc(10vmin);
+  font-weight: 400;
+
 }
